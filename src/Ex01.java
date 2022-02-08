@@ -15,7 +15,6 @@ public class Ex01 {
             int n = Integer.parseInt(text[i].trim().replace(" ", "").replace("+", "1").replace("-", "0"), 2);
             text[i] = String.valueOf((char) n);
             System.out.print(text[i]);
-
         }
     }
 }
