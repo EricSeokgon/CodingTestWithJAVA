@@ -46,6 +46,9 @@ public class FinalMethodJava {
 
         }
 
+        //현재 list3 : one, two, three
+        System.out.println(list3.get(2));
+
 
     }
 }
