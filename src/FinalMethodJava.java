@@ -29,9 +29,22 @@ public class FinalMethodJava {
         for (int i : list2) {
             System.out.print(i + " ");
         }
+        System.out.println();
 
         System.out.println(Collections.max(list));
         System.out.println(Collections.min(list));
+
+        // List 인터페이스를 구현환 ArrayList 사용
+        ArrayList<String> list3 = new ArrayList<String>();
+
+        list3.add("one");
+        list3.add("two");
+        list3.add("three");
+
+        for (String str : list3) {
+            System.out.print(str + " ");
+
+        }
 
 
     }
