@@ -22,13 +22,16 @@ public class FinalMethodJava {
         System.out.println();
 
         Integer[] arr3 = {5, 26, 1, 74, 59, 38};
-        ArrayList<Integer> collections = new ArrayList<Integer>(Arrays.asList(arr2));
+        ArrayList<Integer> list2 = new ArrayList<Integer>(Arrays.asList(arr2));
 
-        Collections.sort(collections);
+        Collections.sort(list2);
 
-        for (int i : collections) {
+        for (int i : list2) {
             System.out.print(i + " ");
         }
+
+        System.out.println(Collections.max(list));
+        System.out.println(Collections.min(list));
 
 
     }
