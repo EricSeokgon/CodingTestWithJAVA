@@ -49,6 +49,10 @@ public class FinalMethodJava {
         //현재 list3 : one, two, three
         System.out.println(list3.get(2));
 
+        // 같은 일을 하는 코드 -> 아래의 코드 중 하나만 실행해야 함
+        list3.remove("three");
+        //list3.remove(2);
+
 
     }
 }
