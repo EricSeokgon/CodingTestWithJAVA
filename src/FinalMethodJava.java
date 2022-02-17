@@ -148,5 +148,8 @@ public class FinalMethodJava {
         queue.offer("three");
 
         System.out.println(queue.toString());
+
+        System.out.println(queue.poll());
+        System.out.println(queue.toString());
     }
 }
