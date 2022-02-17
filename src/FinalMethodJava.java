@@ -167,5 +167,19 @@ public class FinalMethodJava {
         System.out.println(Math.sqrt(25));
         System.out.println(Math.sqrt(16));
 
+        String str = "55";
+        System.out.println(str.getClass().getName());
+
+        int num = Integer.parseInt(str);
+        //연산은 숫자형 타입만 가능
+        System.out.println("연산결과 = " + num + 5);
+
+        //2진수를 10진수로 변환
+        System.out.println(Integer.parseInt("1010", 2));
+
+        System.out.println(Integer.valueOf(str));
+
+        int num2 = 90;
+        System.out.println(Integer.valueOf(num2).getClass().getName());
     }
 }
