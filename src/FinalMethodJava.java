@@ -72,5 +72,7 @@ public class FinalMethodJava {
 
         System.out.println(map.containsKey(1));
         System.out.println(map.containsKey(5));
+        System.out.println(map.containsValue("one"));
+        System.out.println(map.containsValue("five"));
     }
 }
