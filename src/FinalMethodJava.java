@@ -53,6 +53,10 @@ public class FinalMethodJava {
         list3.remove("three");
         //list3.remove(2);
 
+        // 현재 list3 : one, two
+        System.out.println(list3.contains("one"));
+        System.out.println(list3.contains("three"));
+
 
     }
 }
