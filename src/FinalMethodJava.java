@@ -114,6 +114,19 @@ public class FinalMethodJava {
         setA.removeAll(setB);
         System.out.println(setA.toString());
 
+        setA.add("2");
+        setA.add("5");
+        setA.add("9");
+        setA.add("12");
+
+        setB.add("3");
+        setB.add("6");
+        setB.add("9");
+        setB.add("12");
+
+        setA.retainAll(setB);
+        System.out.println(setA.toString());
+
 
     }
 }
