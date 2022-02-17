@@ -181,5 +181,14 @@ public class FinalMethodJava {
 
         int num2 = 90;
         System.out.println(Integer.valueOf(num2).getClass().getName());
+
+        String str2 = "Hello World";
+        System.out.println(str2.startsWith("H"));
+        System.out.println(str2.startsWith("h"));
+        System.out.println(str2.endsWith("d"));
+        System.out.println(str2.endsWith("D"));
+
+
+
     }
 }
