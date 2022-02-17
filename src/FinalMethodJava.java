@@ -154,5 +154,9 @@ public class FinalMethodJava {
 
         System.out.println(queue.peek());
         System.out.println(queue.toString());
+
+        System.out.println(Math.max(15, 24));
+        System.out.println(Math.min(15, 24));
+
     }
 }
