@@ -187,9 +187,18 @@ public class FinalMethodJava {
         System.out.println(str2.startsWith("h"));
         System.out.println(str2.endsWith("d"));
         System.out.println(str2.endsWith("D"));
+
         String str3 = "apple";
         System.out.println(str2.equals("apple"));
         System.out.println(str2.equals("banana"));
+        System.out.println(str3.indexOf("a"));
+        System.out.println(str3.indexOf("p"));
+
+        System.out.println(str2.substring(0, 5));
+        System.out.println(str2.substring(4));
+
+        System.out.println(str2.replace("Hello", "hello~"));
+
 
 
 
