@@ -107,5 +107,10 @@ public class FinalMethodJava {
         setB.add("12");
 
         System.out.println(setA.containsAll(setB));
+
+        setA.addAll(setB);
+        System.out.println(setA.toString());
+
+
     }
 }
