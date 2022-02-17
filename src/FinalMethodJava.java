@@ -199,6 +199,15 @@ public class FinalMethodJava {
 
         System.out.println(str2.replace("Hello", "hello~"));
 
+        String str4 = "HELLO WORLD";
+        System.out.println(str4.toLowerCase());
+
+        String str5 = "hello world";
+        System.out.println(str5.toUpperCase());
+
+        String str6 = "             hello world                ";
+        System.out.println(str6.trim());
+
 
 
 
