@@ -161,5 +161,11 @@ public class FinalMethodJava {
         System.out.println(Math.abs(15));
         System.out.println(Math.abs(-8));
 
+        System.out.println(Math.pow(5, 2));
+        System.out.println(Math.pow(5, 3));
+
+        System.out.println(Math.sqrt(25));
+        System.out.println(Math.sqrt(16));
+
     }
 }
