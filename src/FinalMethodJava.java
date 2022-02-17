@@ -57,6 +57,9 @@ public class FinalMethodJava {
         System.out.println(list3.contains("one"));
         System.out.println(list3.contains("three"));
 
+        // 현재 list3 : one, two
+        System.out.println(list3.size());
+
 
     }
 }
