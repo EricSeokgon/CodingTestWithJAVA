@@ -151,5 +151,8 @@ public class FinalMethodJava {
 
         System.out.println(queue.poll());
         System.out.println(queue.toString());
+
+        System.out.println(queue.peek());
+        System.out.println(queue.toString());
     }
 }
