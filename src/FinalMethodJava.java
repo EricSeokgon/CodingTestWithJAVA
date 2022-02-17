@@ -92,5 +92,20 @@ public class FinalMethodJava {
         while (iter.hasNext()) {
             System.out.println(iter.next());
         }
+
+        HashSet<String> setA = new HashSet<>();
+        HashSet<String> setB = new HashSet<>();
+
+        setA.add("2");
+        setA.add("5");
+        setA.add("9");
+        setA.add("12");
+
+        setB.add("3");
+        setB.add("6");
+        setB.add("9");
+        setB.add("12");
+
+        System.out.println(setA.containsAll(setB));
     }
 }
