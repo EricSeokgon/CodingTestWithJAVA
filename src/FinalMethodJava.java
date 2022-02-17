@@ -208,6 +208,12 @@ public class FinalMethodJava {
         String str6 = "             hello world                ";
         System.out.println(str6.trim());
 
+        System.out.println(str2.charAt(4));
+        System.out.println(str2.charAt(8));
+
+        System.out.println(String.valueOf(5.0));
+        System.out.println(String.valueOf('A'));
+
 
 
 
