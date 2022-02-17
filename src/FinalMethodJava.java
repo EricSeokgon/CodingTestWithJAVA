@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 
 public class FinalMethodJava {
     public static void main(String[] args) {
@@ -60,6 +61,13 @@ public class FinalMethodJava {
         // 현재 list3 : one, two
         System.out.println(list3.size());
 
+        //Map 인터페이스를 구현한 HashMap 사용
+        HashMap<Integer, String> map = new HashMap<>();
+        map.put(1, "one");
+        map.put(2, "two");
+        map.put(3, "three");
 
+        System.out.println(map.get(1));
+        System.out.println(map.get(5));
     }
 }
