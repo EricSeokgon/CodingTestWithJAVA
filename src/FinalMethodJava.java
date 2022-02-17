@@ -140,5 +140,13 @@ public class FinalMethodJava {
 
         System.out.println(stack.peek());
         System.out.println(stack.toString());
+
+        LinkedList<String> queue = new LinkedList<>();
+
+        queue.offer("one");
+        queue.offer("two");
+        queue.offer("three");
+
+        System.out.println(queue.toString());
     }
 }
