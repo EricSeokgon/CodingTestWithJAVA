@@ -138,5 +138,7 @@ public class FinalMethodJava {
         System.out.println(stack.pop());
         System.out.println(stack.toString());
 
+        System.out.println(stack.peek());
+        System.out.println(stack.toString());
     }
 }
