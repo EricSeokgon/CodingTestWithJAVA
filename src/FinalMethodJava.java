@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.*;
 
 public class FinalMethodJava {
     public static void main(String[] args) {
@@ -81,6 +78,19 @@ public class FinalMethodJava {
         for (int key : map.keySet()) {
             String value = map.get(key);
             System.out.println(key + " : " + value);
+        }
+
+        // Set 인터페이스를 구현한 HashSet 사용
+        HashSet<String> set = new HashSet<>();
+
+        set.add("one");
+        set.add("two");
+        set.add("three");
+        set.add("two");
+
+        Iterator<String> iter = set.iterator();
+        while (iter.hasNext()) {
+            System.out.println(iter.next());
         }
     }
 }
