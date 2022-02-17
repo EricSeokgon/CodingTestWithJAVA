@@ -127,6 +127,13 @@ public class FinalMethodJava {
         setA.retainAll(setB);
         System.out.println(setA.toString());
 
+        Stack<String> stack = new Stack<>();
+
+        stack.push("one");
+        stack.push("two");
+        stack.push("three");
+
+        System.out.println(stack.toString());
 
     }
 }
