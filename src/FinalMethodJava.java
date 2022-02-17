@@ -74,5 +74,13 @@ public class FinalMethodJava {
         System.out.println(map.containsKey(5));
         System.out.println(map.containsValue("one"));
         System.out.println(map.containsValue("five"));
+
+        map.remove(1);
+
+        //map의 값 출력
+        for (int key : map.keySet()) {
+            String value = map.get(key);
+            System.out.println(key + " : " + value);
+        }
     }
 }
