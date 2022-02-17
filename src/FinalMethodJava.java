@@ -217,7 +217,10 @@ public class FinalMethodJava {
         System.out.println(str2.contains("Hello"));
         System.out.println(str2.contains("Hi"));
 
-
+        String str7 = "Hello:World";
+        String[] split = str7.split(":");
+        System.out.println(split[0]);
+        System.out.println(split[1]);
 
 
     }
