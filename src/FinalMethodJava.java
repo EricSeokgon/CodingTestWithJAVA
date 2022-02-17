@@ -158,5 +158,8 @@ public class FinalMethodJava {
         System.out.println(Math.max(15, 24));
         System.out.println(Math.min(15, 24));
 
+        System.out.println(Math.abs(15));
+        System.out.println(Math.abs(-8));
+
     }
 }
