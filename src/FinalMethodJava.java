@@ -214,6 +214,9 @@ public class FinalMethodJava {
         System.out.println(String.valueOf(5.0));
         System.out.println(String.valueOf('A'));
 
+        System.out.println(str2.contains("Hello"));
+        System.out.println(str2.contains("Hi"));
+
 
 
 
